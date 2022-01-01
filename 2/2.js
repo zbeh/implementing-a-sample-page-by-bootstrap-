@@ -7,13 +7,13 @@ function stackCalc(str){
         str = str.replace("DUP" , str[insert-1])
     }
     let array = str.split("")
+    let index , operator , firstValue , secondValue , result
     while(array.length>1){
-        let isOprand = (item) => (item ==="+") || (item ==="-") || (item === "*") || (item === "/")
-        let index = array.findIndex(isOprand)
-        let operator = array [index]
-        let firstValue = array[index-1]
-        let secondValue = array [index-2]
-        let result
+        index = array.findIndex((item) => (item ==="+") || (item ==="-") || (item === "*") || (item === "/"))
+        operator = array [index]
+        firstValue = array[index-1]
+        secondValue = array [index-2]
+        result
         if (isNaN(firstValue) || isNaN(secondValue)){
             return `invalid instruction:${secondValue}${operator}${firstValue} `
         }
