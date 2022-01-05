@@ -12,10 +12,14 @@ a{
 .carousel-item{
     position: relative;
 }
+.carousel-item img{
+    height: 550px;
+}
 .carousel-caption{
     position: absolute;
     top: 15%;
     left:-45%;
+    color:black;
 }
 .between{
     position: relative;
@@ -47,11 +51,11 @@ footer{
     background-color: silver;
 }
 .image{
-    background-image: url(../images/167-367x267.jpg);
-    background-position: center;
-    background-repeat: repeat;
+    background-image: url(../images/online-photography-business-1440x960.jpg.webp);
+    background-repeat:no-repeat;
     background-size: cover;
-    height: 300px;
+    background-position: center;
+    height: 550px;
 }
 ul{
     list-style-type: none;

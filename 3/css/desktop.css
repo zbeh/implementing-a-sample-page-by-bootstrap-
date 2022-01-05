@@ -1,6 +1,12 @@
 .logo{
   color:gray;
 }
+.carousel-caption h1{
+    font-size:xx-large;
+}
+.carousel-caption p{
+    font-size:x-large;
+}
 .line{
     position: absolute;
     height:3px;
