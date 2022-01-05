@@ -1,0 +1,25 @@
+.logo{
+  color:gray;
+}
+.line{
+    position: absolute;
+    height:3px;
+    width: 70px;
+    background-color: black;
+    top: 44%;
+    right: 47%;
+}
+.line-2{
+    position: absolute;
+    height:3px;
+    width: 54px;
+    background-color: black;
+    top: 11%;
+    right: 48%;
+}
+.logo-1{
+    left: 29%;
+}
+.content{
+    margin-top: 42%;
+}

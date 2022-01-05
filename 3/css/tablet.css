@@ -1,0 +1,48 @@
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+ color:gray;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+i{
+    color: gray;
+}
+.line{
+    position: absolute;
+    height:3px;
+    width: 70px;
+    background-color: black;
+    top:34%;
+    right: 42%;
+}
+.line-2{
+    position: absolute;
+    height:3px;
+    width: 54px;
+    background-color: black;
+    top:10%;
+    right: 47%;
+}
+.logo-1{
+ left:30%;
+}
+.content{
+    margin-top: 40%;
+}
