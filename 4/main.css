@@ -19,9 +19,9 @@ a{
     border-top: 1px solid #ffee00;
 }
 #searching{
-    padding-right: 5px;
     border-right: 1px solid grey;
-    margin-left: 3%;
+    margin-left: 12.5%;
+    padding-bottom: 3%;
 }
 
 ul {
@@ -39,10 +39,6 @@ li {
 }
 #first{
     width: 25%;
-}
-#searching{
-    margin-left: 12.5%;
-    padding-bottom: 3%;
 }
 main{
     margin-bottom: 5%;
