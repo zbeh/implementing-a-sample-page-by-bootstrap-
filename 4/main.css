@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color:#3998cf;
+    padding: 15px;
+}
+#home{
+    color: #ffee00;
+
+}
+#homing{
+    border-top: 1px solid #ffee00;
+}
+#searching{
+    padding-right: 5px;
+    border-right: 1px solid grey;
+    margin-left: 3%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    padding-top:2%;
+}
+#logo, #search, #login{
+    color: grey;
+}
+#first{
+    width: 25%;
+}
+#searching{
+    margin-left: 12.5%;
+    padding-bottom: 3%;
+}
+main{
+    margin-bottom: 5%;
+}
+nav{
+    padding: 1%;
+    background-color:#3998cf;
+    color: white;
+    margin: 0%;
+}
+h1{
+    display: inline-block;
+    width: 89%;
+}
+.destination{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2%;
+    color:#3998cf;
+}
+.stay{
+    text-align: center;
+    font-size: .8rem;
+}
+section{
+    height: 60vh;
+}
+.img-container{
+    float: left;
+    width: 31%;
+    box-shadow:-1px 3px 10px 2px silver ;
+    margin-bottom: 2%;
+    text-align: left;
+    margin-right: 2%;
+    padding-bottom: 1%;
+}
+.lst{
+    margin-right: 0%;
+}
+.img-container img{
+    width:100%;
+    height: 200px;
+    margin-bottom: 3%;
+}
+.img-container span{
+    color:gray;
+    padding-left:5%;
+}
+#middle{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 18% ;
+}
+#view{
+    background-color: #81cc07ed;
+    border-radius: 2px;
+    padding: 1% 2%;
+    color: white;
+    box-shadow:-1px 3px 10px 2px silver ;
+}
+.subscribe{
+    background-color:#3998cf;
+    padding: 1%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+#letter{
+    color: white;
+    width: 55%;
+    font-size: 1.5em;
+    padding-top: 0%;
+}
+#name{
+    display: inline-block;
+    width: 10%;
+    background-color: white;
+    color: gray;
+    font-size: .8rem;
+    padding: 1%;
+    margin-right: 1%;
+}
+#news{
+    padding: 1%;
+}
+#email{
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+    color: gray;
+    font-size: .8rem;
+    padding: 1%;
+    margin-right: 1%;
+}
+#sub{
+    display: inline-block;
+    width: 7%;
+    background-color: #81cc07ed;
+    color:white;
+    font-size: .8rem;
+    padding: 1%; 
+    text-align: center;
+}
+#book p, #community p, #link p{
+    color: gray;
+    line-height:5px;
+}
+#book{
+    margin-left:5%;
+}
+#community{
+    margin: 0% 7%;
+}
+.sub-footer{
+    background-color:#3998cf;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-top: 3%;
+}
